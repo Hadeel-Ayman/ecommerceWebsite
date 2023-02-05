@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Colors } from "../../global/Colors";
-import Selects from "../select";
+import Selects from "../../components/select";
 
 const Footer2 = () => {
   return (
@@ -22,5 +22,6 @@ const Footerss = styled.div`
   justify-content: space-between;
   border-top: 1px solid #e3e8ee;
   padding: 0 90px;
+  position: absolute;
   background-color: ${Colors.GRAY_200};
 `;

@@ -29,3 +29,9 @@ export const Select = styled(SelectList)`
   border: none;
   top: 16px;
 `;
+export const Select2 = styled(Select)`
+  height: 40px;
+  width: 111px;
+  border-radius: 6px;
+  border: 1px solid ${Colors.GRAY_300};
+`;

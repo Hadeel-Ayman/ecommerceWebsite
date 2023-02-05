@@ -40,3 +40,20 @@ export const Login = styled(SubmitButton)`
   background-color: ${Colors.WHITE};
   margin-top: 10px;
 `;
+export const Source = styled(Login)`
+  height: 40px;
+  width: 119px;
+  border: 1px solid #ffffff;
+  color: ${Colors.DARK};
+  font-weight: 500;
+  font-size: 16px;
+  box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.08);
+`;
+export const Send = styled(Source)`
+  width: 129px;
+  color: ${Colors.WHITE};
+  border: 1px solid #0d6efd;
+  margin-top: 5px;
+  margin-left: 8px;
+  background: linear-gradient(180deg, #127fff 0%, #0067ff 100%);
+`;

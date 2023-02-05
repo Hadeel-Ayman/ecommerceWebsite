@@ -7,6 +7,11 @@ import "./index.css";
 import Header from "./components/header";
 import Navbar from "./components/navbar";
 
+// sections
+import SubscribeSection from "./Sections/subscribe";
+import Footer from "./Sections/footer";
+import Footer2 from "./Sections/Footer2";
+
 function App() {
   const routes = useRoutes(router);
 
@@ -16,6 +21,9 @@ function App() {
       <HR />
       <Navbar />
       <div className="container">{routes}</div>
+      <SubscribeSection/>
+      <Footer/>
+      <Footer2/>
     </div>
   );
 }

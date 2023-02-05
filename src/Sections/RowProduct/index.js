@@ -27,7 +27,7 @@ export default RowProduct;
 
 const Row = styled.div`
   height: 240px;
-  width: 1180px;
+  width: 100%;
   left: 130px;
   top: 592px;
   display: flex;

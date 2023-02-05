@@ -43,7 +43,7 @@ const Main = styled.div`
 const AllMain = styled.div`
   display: flex;
   height: 400px;
-  width: 1180px;
+  width: 100%;
   background-color: ${Colors.WHITE};
   align-items: center;
   justify-content: space-between;

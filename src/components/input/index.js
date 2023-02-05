@@ -14,11 +14,9 @@ const Input = (props) => {
 
 export default Input;
 
-const InputLogin = styled.input`
+export const InputLogin = styled.input`
   height: 40px;
   width: 317px;
-  left: 0px;
-  top: 0px;
   border-radius: 6px;
   font-weight: 400;
   font-size: 16px;
@@ -51,4 +49,14 @@ export const SearchInput = styled(InputLogin)`
   background-color: transparent;
   border: 1px solid ${Colors.PRIMARY};
   border-radius: 3px 0px 0px 3px;
+`;
+export const ItemInput = styled(SearchInput)`
+  width: 440px;
+  border-radius: 6px;
+  border: 1px solid ${Colors.GRAY_300};
+  margin-top: 15px;
+`;
+export const Quantity = styled(ItemInput)`
+  width: 206px;
+  margin-right: 15px;
 `;
