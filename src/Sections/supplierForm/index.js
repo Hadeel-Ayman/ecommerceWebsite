@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import mask from "../../assets/images/Mask.png";
-import Button, { Send } from "../../components/Button";
+import { Send } from "../../components/Button";
 import { ItemInput, Quantity } from "../../components/input";
 import { Select2 } from "../../components/list";
 import { Colors } from "../../global/Colors";

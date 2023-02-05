@@ -1,11 +1,9 @@
 import React from "react";
-import List, { Select } from "../list";
 import menu from "../../assets/images/menu.png";
 import styled from "styled-components";
 import { Colors } from "../../global/Colors";
 import Ul from "../ul";
 import Selects from "../select";
-import alam from "../../assets/images/alam.png";
 const Navbar = () => {
   return (
     <NAvBar>

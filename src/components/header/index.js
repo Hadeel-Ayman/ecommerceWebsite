@@ -1,12 +1,11 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import logo from "../../assets/images/logo.png";
 import { Colors } from "../../global/Colors";
 import { SearchBtn } from "../Button";
 import Img from "../img";
 import { SearchInput } from "../input";
-import List, { Select } from "../list";
+import List from "../list";
 import moon from "../../assets/images/Moon.png";
 import cart from "../../assets/images/shopping-cart.png";
 import favorite from "../../assets/images/favorite.png";
